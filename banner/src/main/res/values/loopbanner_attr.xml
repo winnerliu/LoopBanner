@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <declare-styleable name="LoopBanner">
+        <attr name="delayTime" format="integer" />
+        <attr name="isAutoPlay" format="boolean" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="indicator_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
